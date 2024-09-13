@@ -9,35 +9,52 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+
         System.out.println("Задание 2");
-        System.out.println(dog + 2);
-        System.out.println(cat + 2);
-        System.out.println(paper + 2);
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
         System.out.println("Задание 3");
-        System.out.println(dog - 3.5);
-        System.out.println(cat - 1.6);
-        System.out.println(paper - 7639);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
         System.out.println("Задание 4");
         var friend = 19;
-        System.out.println((friend + 2) / 7);
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
         System.out.println("Задание 5");
         var frog = 3.5;
         System.out.println(frog);
-        var frog1 = frog * 10;
-        System.out.println(frog1);
-        var frog2 = frog1 / 3.5;
-        System.out.println(frog2);
-        var frog3 = frog2 + 4;
-        System.out.println(frog3);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
         System.out.println("Задание 6");
         var fighter1 = 78.2;
         var fighter2 = 82.7;
         System.out.println(fighter1 + fighter2);
         var weightDifference = fighter2 - fighter1;
         System.out.println(weightDifference);
+
         System.out.println("Задание 7");
         var remainderOfIntegerDivison = fighter2 % fighter1;
         System.out.println(remainderOfIntegerDivison);
+
         System.out.println("Задание 8");
         var hours = 640;
         var shift = 8;
